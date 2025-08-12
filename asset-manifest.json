@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/detectiveboard/static/css/main.8300a64f.css",
-    "main.js": "/detectiveboard/static/js/main.5b9c42a8.js",
-    "static/js/787.223550ad.chunk.js": "/detectiveboard/static/js/787.223550ad.chunk.js",
-    "static/media/pin.png": "/detectiveboard/static/media/pin.ae15f9322865325c0ee4.png",
-    "static/media/delete.png": "/detectiveboard/static/media/delete.3c662b752278fc52f408.png",
-    "index.html": "/detectiveboard/index.html",
-    "main.8300a64f.css.map": "/detectiveboard/static/css/main.8300a64f.css.map",
-    "main.5b9c42a8.js.map": "/detectiveboard/static/js/main.5b9c42a8.js.map",
-    "787.223550ad.chunk.js.map": "/detectiveboard/static/js/787.223550ad.chunk.js.map"
+    "main.css": "/CarrierBoard/static/css/main.8300a64f.css",
+    "main.js": "/CarrierBoard/static/js/main.4d5947fe.js",
+    "static/js/787.223550ad.chunk.js": "/CarrierBoard/static/js/787.223550ad.chunk.js",
+    "static/media/pin.png": "/CarrierBoard/static/media/pin.ae15f9322865325c0ee4.png",
+    "static/media/delete.png": "/CarrierBoard/static/media/delete.3c662b752278fc52f408.png",
+    "index.html": "/CarrierBoard/index.html",
+    "main.8300a64f.css.map": "/CarrierBoard/static/css/main.8300a64f.css.map",
+    "main.4d5947fe.js.map": "/CarrierBoard/static/js/main.4d5947fe.js.map",
+    "787.223550ad.chunk.js.map": "/CarrierBoard/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8300a64f.css",
-    "static/js/main.5b9c42a8.js"
+    "static/js/main.4d5947fe.js"
   ]
 }
