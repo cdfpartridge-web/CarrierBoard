@@ -269,3 +269,398 @@ p{
   padding: 0 5px;
   font-size: 12px;
 }
+/* Riftbound ladder styles */
+.page {
+  color: #0f172a;
+  background: radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.06), transparent 25%),
+    radial-gradient(circle at 90% 10%, rgba(16, 185, 129, 0.06), transparent 25%),
+    #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.hero {
+  padding: 48px 10vw 24px;
+  display: grid;
+  gap: 12px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.lede {
+  margin: 8px 0 0;
+  color: #475569;
+  max-width: 720px;
+  line-height: 1.5;
+}
+
+.eyebrow {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6366f1;
+  margin: 0 0 4px;
+}
+
+.feature-list {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  padding: 0 10vw 48px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.panel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel-header h2 {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .panel-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.form-inline {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 600;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+button.primary {
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+}
+
+.table {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.table-row {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table-row.five-col {
+  grid-template-columns: 60px 1fr 100px 110px 80px;
+}
+
+.table-row.four-col {
+  grid-template-columns: 1.5fr 1fr 1fr 80px;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-head {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #475569;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  box-shadow: inset 0 1px 0 #f8fafc;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  display: grid;
+  gap: 6px;
+  color: #334155;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.code {
+  font-family: 'DM Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.status-pill {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.pill-positive {
+  background: #ecfeff;
+  color: #0f172a;
+}
+
+.pill-negative {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.lobby-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.notes {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.timestamp {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.victory {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.empty {
+  margin: 0;
+  color: #64748b;
+}
+
+/* Enhanced Riftbound ladder look */
+.hero-content {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 32px;
+  align-items: stretch;
+}
+
+@media (max-width: 960px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-panel {
+  background: linear-gradient(145deg, rgba(99, 102, 241, 0.08), rgba(16, 185, 129, 0.08));
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.session-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-pill.success {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.session-body {
+  display: grid;
+  gap: 12px;
+}
+
+.session-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar-placeholder,
+.avatar.tiny {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #4338ca;
+}
+
+.avatar.tiny {
+  width: 28px;
+  height: 28px;
+}
+
+.session-profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.name {
+  margin: 0;
+  font-weight: 700;
+}
+
+.muted {
+  margin: 0;
+  color: #64748b;
+}
+
+.alert {
+  margin: 0;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecdd3;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.helper {
+  font-size: 13px;
+  color: #475569;
+  margin: 0;
+}
+
+.google-button-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+}
+
+.ghost {
+  background: transparent;
+  color: #4338ca;
+  border: 1px solid #cbd5e1;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.pill-soft {
+  background: #eef2ff;
+  color: #4338ca;
+  border: 1px solid rgba(99, 102, 241, 0.15);
+}
+
+.player-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.player-cell .avatar.tiny {
+  border: 1px solid #e2e8f0;
+}
+
+.enhanced-grid {
+  gap: 24px;
+}
